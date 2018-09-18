@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:700");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  background-color: rgb(40, 40, 54);
+}
+#mainNav {
+  min-height: 96px;
+  background-color: rgb(40, 40, 54);
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 3%;
+  color: white;
+  border: 1px solid white;
+}
+
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
+
+#mainNav .navbar-brand {
+  color: white;
+  font-weight: 700;
+  padding: 0.5rem 0;
+  font-family: "Dancing Script", cursive;
+}
+#mainNav .navbar-nav .nav-item {
+  margin-left: 2.5em;
+}
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active,
+#mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+/*header*/
+.headd {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(22, 22, 22, 0.1)),
+      color-stop(75%, rgba(22, 22, 22, 0.5)),
+      to(#fff)
+    ),
+    url("../images/pics.jpg");
+  background: linear-gradient(
+      to bottom,
+      rgba(22, 22, 22, 0.1) 0%,
+      rgba(22, 22, 22, 0.5) 75%,
+      #fff 100%
+    ),
+    url("../images/pics.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.headd h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  line-height: 6rem;
+  letter-spacing: 0.2em;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+}
+.headd h2 {
+  max-width: 20rem;
+  display: inline;
+  font-size: 1.8em;
+  font-family: "Playfair Display", serif;
+
+  color: white;
+}
+
+.btn {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 20%;
+  font-family: "Varela Round";
+  font-size: 80%;
+  margin: auto;
+  border: 3px solid white;
+}
+
+.about-section {
+  padding-top: 10rem;
+  width: 100%;
+  max-width: 100%;
+  background-image: url("../images/table.jpg");
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#161616),
+    color-stop(75%, rgba(22, 22, 22, 0.9)),
+    to(rgba(22, 22, 22, 0.8))
+  );
+  background: linear-gradient(
+    to bottom,
+    #161616 0%,
+    rgba(22, 22, 22, 0.9) 75%,
+    rgba(22, 22, 22, 0.8) 100%
+  );
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}
+.about-section p {
+  margin-bottom: 5rem;
+}
+
+/*Contact*/
+.signup-section {
+  padding: 10rem 0;
+  width: 100%;
+  max-width: 100%;
+  background-image: url("../images/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.social {
+  width: 70%;
+  margin: auto;
+  padding: 0.2em 0.3em;
+  line-height: 2em;
+}
+
+.form-horizontal {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  font-family: "Varela Round";
+  font-size: 80%;
+  letter-spacing: 0.15rem;
+}
+/*skills*/
+.skills-section {
+  padding: 10rem 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: rgba(100, 94, 84, 0.712);
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.progress {
+  margin: 3%;
+}
+
+/*mailto*/
+.mailTo {
+  margin: 0 auto;
+  padding: 6rem 15rem;
+}
+
+.btn-light {
+  margin: 0 auto;
+  padding: 1rem 5rem;
+  border: 0.1em solid black;
+  color: black;
+}
+.btn-light:hover {
+  background-color: black;
+  color: white;
+}
+
+/*change*/
+body {
+  font-family: "Nunito";
+  letter-spacing: 0.0625em;
+}
+#background {
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+.bg-black {
+  background-color: #161616;
+}
+
+.bg-primary {
+  background-color: #64a19d;
+}
+
+.text-primary {
+  color: #64a19d;
+}
+.text {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 1.2em;
+  display: inline-flex;
+
+  opacity: 0.9;
+}
+.text-top {
+  margin: 0 auto;
+}
+/*change*/
+.fab {
+  border-radius: 60px;
+  background-color: rgb(40, 40, 54);
+  color: #fff;
+  font-size: 2em;
+  box-shadow: 0px 0px 6px #888;
+  padding: 0.5em 0.6em;
+}
+
+footer {
+  padding: 5em;
+}
